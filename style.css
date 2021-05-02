@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /* from css tricks,to make the background image to be center
+   no repeat...center of image is center even though */
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+    color: rgb(255, 248, 239);
+    /* font-size:3rem; */
+}
+hr{
+  border-color: #db3214;
+  border-width:10px;
+  max-width:65px;
+  border-color: #db3214;
+ } 
+ .buffer{
+   height:94px;
+ }
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary{
+  background-color:#f05f44;
+  border-color: #f05f44;
+  /* to remove border color as blue(by default) */
+}
+.btn-primary:hover{
+  background-color:#ee4b08;
+  border-color:#ee4b08;
+  border-width:4px; /* to give the hover effect */
+
+}
+/* .btn-xl{
+     padding: 1rem 2rem; 
+} */
+ 
